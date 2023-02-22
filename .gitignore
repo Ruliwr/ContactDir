@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+dist/
+server/myfile1.txt
