@@ -2,8 +2,8 @@
 Instructions:
 After cloning the repository to your local computer, 
 
-1) NPM install
-2) NPM run build
+1) npm install
+2) npm run build
 3) cd server
 4) npm start
 
