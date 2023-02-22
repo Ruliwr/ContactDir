@@ -26,10 +26,6 @@ app.get('/getContacts', (req, res) => {
     return res.end();
 })
 
-
-
-
-
 app.use(express.static(path.join(__dirname,'../dist')))
 
 app.listen(port, () => {

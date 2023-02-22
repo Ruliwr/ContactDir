@@ -88,7 +88,7 @@ if (contactList.length > 0) {
 console.log('contact list:', contactList)
   return (
     <div className="App">
-      <h1>Contact Directory</h1>
+      <h1><center>Contact Directory</center></h1>
       <form id="myForm" onSubmit={e => downloadFile(e, name, email, address)}>
         <label for="name">Name:</label><br />
         <input type="text" id="name" value={name} name="name" onChange={(e) => setName(e.target.value)} required></input> <br />
